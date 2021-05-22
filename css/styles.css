@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fill-height {
+  height: 100%;
+}
+
+
+.profile {
+  width: 60%;
+  /* top right bottom left */
+  margin: 0 0 0 auto;
+
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.resume-btn {
+  font-size: 300%;
+
+}
+
+.other-btn {
+  font-size: 150%;
+
+}
+
+
+body  {
+  background-color: #f0f0f0 !important;
+
+  font-family: "Montserrat";
+  /* text-align: center; */
+  margin: 0 auto 0 auto;
+  width: 80%;
+
+  /* padding: 3% 25%; */
+}
+
+
+.container-fluid{
+  /* padding: 3% 24%; */
+}
+
+.head{
+  /* text-align: left; */
+  text-align: center;
+
+
+}
+
+.profile {
+  width: 40%;
+}
+
+@media (max-width: 991px) {
+
+
+  .profile {
+    position: static;
+    width: 25%;
+    /* top right bottom left */
+    /* use margin because margin centers the content itself. text-align centers contents inside */
+    margin: 0 auto 0 auto;
+  }
+
+  /* margin works when its parent container is d-flex */
+  .resume-btn {
+    margin: 0 auto 0 auto;
+  }
+  .other-btn {
+    margin: 0 auto 0 auto;
+  }
+
+}
